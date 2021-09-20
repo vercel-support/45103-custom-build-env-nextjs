@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build-production": "echo 'production....' && next build",
+    "build-dev": "echo 'devvvvv' && next build",
     "start": "next start",
     "lint": "next lint"
   },
